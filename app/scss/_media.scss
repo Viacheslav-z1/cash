@@ -253,6 +253,34 @@
       padding-top: 20px;
     }
   }
+    .popup{
+      height: 100%;
+      &__title{
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 15px;
+      }
+    }
+    .form{
+      &__input{
+        padding: 15px;
+        font-size: 16px;
+        line-height: 17px;
+      }
+      &__btn{
+        margin-top: 10px;
+        font-size: 17px;
+        line-height: 17px;
+      }
+      &__lavel{
+        margin-top: 10px;
+        font-size: 15px;
+        line-height: 20px;
+      }
+    }
+    .close__popup{
+      transform: scale(-0.7);
+    }
 }
 
 
@@ -379,3 +407,6 @@
     }
   }
 }
+
+
+
