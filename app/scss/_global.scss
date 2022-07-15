@@ -1,0 +1,30 @@
+body{
+  @extend %cera-400;
+  font-size: 22px;
+  line-height: 33px;
+  color: #fff;
+}
+
+
+.button{
+  background-color: #FAB31B;
+  @extend %cera-700;
+  font-size: 23px;
+  line-height: 23px;
+  color: #000000;
+  text-transform: uppercase;
+  transition: all .5s;
+  border: none;
+  cursor: pointer;
+  padding: 20px 30px;
+  &:hover{
+    background-color: #D38F0B;
+    color: #fff;
+  }
+}
+
+.container{
+  max-width: 1620px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
